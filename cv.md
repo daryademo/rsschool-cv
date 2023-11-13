@@ -1,20 +1,28 @@
-#**Darya Tonk**
-tonk.darya@gmai.com
+# **Darya Tonk**
 QA Engineer
+
+__Contact information:__
+tonk.darya@gmail.com
+[linkedin](https://www.linkedin.com/in/daryatonk/)
+
+## __Skills:__
 HTML, CSS, JavaScript + Cypress, Python + Selenium, Java, SQL, JQuery, Jira, Trello, Figma, Balsamiq, TestRail
+
+### __Education:__
 Northcentral Technical College 
 
+### __Code example:__
 
-https://www.codewars.com/kata/58291fea7ff3f640980000f9:
-function allContinents(list) {
+[link](https://www.codewars.com/kata/58291fea7ff3f640980000f9/train/javascript)
+```function allContinents(list) {
   let arrContinents = list.map(el=>el.continent)
   return arrContinents.includes('Africa' && 'Americas' && 'Asia' && 'Europe' && 'Oceania') 
-  }
+}
+```
 
 
-
-https://www.codewars.com/kata/57bf599f102a39bb1e000ae5
-var fibsFizzBuzz = function(n) {
+[link](https://www.codewars.com/kata/57bf599f102a39bb1e000ae5)
+```var fibsFizzBuzz = function(n) {
   if (n===1){
     return [1]
   }
@@ -27,28 +35,9 @@ var fibsFizzBuzz = function(n) {
                  el%5 ===0? 'Buzz':
                 el)
 }
+```
 
 
-https://www.codewars.com/kata/589ace5eeef39faf49000061:
-function reverseParentheses(s) {
-  let res = ''
-  let par = []
-  for (let i = 0; i<s.length; i++){
-    
-    if (s[i] !== '(' && s[i] !== ')' ){
-      res += s[i]
-      
-    } else if (s[i] === '('){
-      par.push(res)
-      res = ''
-    } else if (s[i] === '('){
-      par.push(res)
-      res = ''
-    } else if (s[i] === ')'){
-      res = par.pop() + res.split('').reverse().join('')
-    }
-  }
-  return res
-}
+
 
 
